@@ -1,0 +1,44 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile_card {
+    box-shadow: 0px 2px 7px -2px rgba(0, 0, 0, 0.75);
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.3rem;
+    background-color: #FEFADC;
+    max-width: 250px;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+.img1 {
+    position: relative;
+    bottom: 100px;
+    width: 130px;
+}
+
+@media screen and (max-width:254px) {
+    .profile_card {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width:205px) {
+    .profile_card {
+        max-width: 150px;
+        padding: 1.1rem;
+    }
+
+    .img1 {
+        width: 100px;
+    }
+}

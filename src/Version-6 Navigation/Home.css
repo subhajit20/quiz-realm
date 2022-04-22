@@ -1,0 +1,13 @@
+.home_menus {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+.home_menus:hover {
+    background-color: azure;
+    color: black
+}

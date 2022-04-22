@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&family=Baloo+Bhaijaan+2:wght@600&family=Baloo+Thambi+2:wght@600&family=Roboto:wght@400;500;900&display=swap');
+
+* {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+/******************************** Navbar ************/
+.Navbar {
+    background: #343434;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px
+}
+
+#menu1, #menu2 {
+
+    text-decoration: none;
+    color: #F7FFF7;
+    padding: 2px 15px;
+    border-radius: 15px;
+    font-family: 'Baloo Thambi 2', cursive;
+    cursor: pointer;
+}
+
+#menu1:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #E7F0FF;
+    color: rgb(0, 0, 0)
+}
+
+#menu2:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #E7F0FF;
+    color: rgb(0, 0, 0)
+}
+
+.username {
+    width: 430px;
+}
+
+/************************* Banner Image ************************/
+
+.banner {
+    width: 400px;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+.QuizListBackground {
+    height: auto;
+    background: linear-gradient(180deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 98%, 39%, 1) 52%, hsla(206, 100%, 59%, 1) 100%);
+}
+
+.cards {
+    max-width: 345vw;
+    margin: 1rem;
+}
+
+
+/************** Signup image ********************/
+
+.signup {
+    max-width: 400px;
+    border-radius: 25px;
+}
+
+
+.signup_caption {
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+
+@media screen and (max-width:1004px) {
+    .signup {
+        max-width: 390px;
+    }
+}
+
+@media screen and (max-width:893px) {
+    .signup {
+        max-width: 360px;
+    }
+}
+
+@media screen and (max-width:865px) {
+    .signup {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width:819px) {
+    .signup {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .signup {
+        max-width: 240px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .signup_page {
+        flex-direction: column;
+
+    }
+
+    .signup {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .username {
+        width: 250px
+    }
+}
+
+@media screen and (max-width:500px) {
+    .username {
+        width: 350px
+    }
+
+}
+
+
+@media screen and (max-width:440px) {
+    .username {
+        width: 300px
+    }
+
+    .banner {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width:409px) {
+    .signup {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width:389px) {
+    .signup {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .signup {
+        width: 280px;
+    }
+}
+
+
+@media screen and (max-width:370px) {
+    .username {
+        width: 270px
+    }
+
+    .banner {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:328px) {
+    .username {
+        width: 220px
+    }
+
+    .banner {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .username {
+        width: 220px
+    }
+
+
+
+    .banner {
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:308px) {
+
+    .signup {
+        width: 240px;
+    }
+
+    .cards {
+        width: 250px
+    }
+}
+
+@media screen and (max-width:290px) {
+    .username {
+        width: 190px
+    }
+
+    .banner {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:260px) {
+    .username {
+        width: 160px
+    }
+
+    .banner {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width:209px) {
+    .username {
+        width: 130px
+    }
+
+    .banner {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:250px) {
+
+
+    .signup {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width:225px) {
+    .username {
+        width: 120px
+    }
+
+    .signup {
+        width: 170px;
+    }
+
+    .banner {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:190px) {
+    .username {
+        width: 100px
+    }
+
+    .signup {
+        width: 100px;
+    }
+
+    .banner {
+        width: 130px;
+    }
+}

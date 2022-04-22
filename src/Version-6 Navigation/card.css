@@ -1,0 +1,198 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6rem;
+    cursor: pointer;
+}
+
+.mainCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 350px;
+    background-color: #F2F4F3;
+    margin: 1.3rem;
+    border-radius: 15px;
+    box-shadow: 1px 3px 27px -3px rgba(0, 0, 0, 0.75);
+
+}
+
+.cardImg {
+    max-width: 19vw;
+    border-radius: 15px
+}
+
+h5 {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+
+
+.cardButton {
+    margin: 3px 10px;
+    width: 18vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #89A6FB;
+}
+
+
+@media screen and (max-width:1509px) {
+    .mainCard {
+        width: 18vw;
+        height: 300px
+    }
+
+    .cardImg {
+        max-width: 16vw;
+        border-radius: 15px
+    }
+
+    .cardButton {
+        margin: 3px 10px;
+        width: 16vw;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: #89A6FB;
+    }
+}
+
+@media screen and (max-width:1109px) {
+    .mainCard {
+        height: 260px;
+        width: 18vw
+    }
+
+    .cardImg {
+        max-width: 17vw;
+        border-radius: 15px
+    }
+
+    .cardButton {
+        width: 16vw;
+    }
+}
+
+@media screen and (max-width:1081px) {
+    .mainCard {
+        height: 260px;
+        width: 20vw
+    }
+
+    .cardImg {
+        max-width: 17vw;
+        border-radius: 15px
+    }
+
+    .cardButton {
+        width: 16vw;
+    }
+}
+
+@media screen and (max-width:911px) {
+    .mainCard {
+        flex-direction: row;
+        width: 70vw;
+        justify-content: space-evenly;
+    }
+
+    .cardImg {
+        max-width: 40vw;
+        border-radius: 15px;
+        margin-left: 1.1rem;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardButton {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .cardButton {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .mainCard {
+        width: 90vw;
+        height: 200px;
+    }
+
+    .cardImg {
+        max-width: 40vw;
+        border-radius: 15px
+    }
+
+    .cardButton {
+        width: 24vw;
+    }
+}
+
+@media screen and (max-width:551px) {
+    .cardButton {
+        width: 27vw;
+    }
+}
+
+@media screen and (max-width:493px) {
+    .cardButton {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .cardButton {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .mainCard {
+        flex-direction: column;
+        width: 70vw;
+        height: 330px;
+    }
+
+    .cardButton {
+        width: 50vw;
+    }
+
+    .cardContainer {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .mainCard {
+        flex-direction: column;
+        width: 70vw;
+    }
+
+    .cardButton {
+        width: 65vw;
+    }
+
+    .cardContainer {
+        flex-direction: row;
+        align-items: center;
+    }
+}
