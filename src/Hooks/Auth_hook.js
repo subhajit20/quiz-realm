@@ -7,7 +7,6 @@ function Auth() {
 
     async function myAuth() {
         const myCookie = cookies.get('quiz-realm')
-        console.log(myCookie)
         if (myCookie) {
             setCheckLogin(true)
         } else {
